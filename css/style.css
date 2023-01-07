@@ -103,11 +103,54 @@
     padding-top: 50px;
     height: 200px;
     border-radius: 8px;
-    background-image: linear-gradient(to right, rgb(235, 69, 69) , rgb(63, 59, 59));
+    background-image: linear-gradient(to right, rgb(235, 69, 69), rgb(63, 59, 59));
 
     ;
 
 }
+
+
+/* /////// ------aboutME section start-------//////////////--- */
+
+#aboutMETittle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#aboutME {
+    margin: 50px 0px;
+}
+
+#aboutUS {
+    width: 30%;
+}
+
+#aboutMECards {
+    display: flex;
+    /* margin-left:100px; */
+    margin-top: 50px;
+}
+
+.aboutMECard {
+    text-align: center;
+    border: 4px solid rgb(226, 34, 130);
+    margin: 10px;
+    padding: 25px;
+    border-radius: 7px;
+    background-color: rgb(219, 123, 99);
+}
+
+.aboutMECard {
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+.aboutMECard:hover {
+    background-color: rgb(67, 216, 141);
+}
+
+
 
 /* footer start ----------------- */
 
@@ -115,12 +158,43 @@
     background-color: black;
     color: whitesmoke;
     padding: 50px;
-
     margin: 80px 0px 0px;
     display: flex;
     justify-content: space-around;
 }
 
-#aboutUS {
-    width: 30%;
+#footerTittle {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 0px;
+}
+
+#footerDEcription {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footercontrack {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#socileIcon {
+    display: block;
+    margin-top: 15px;
+}
+
+.footerInputbtn {
+    padding: 8px 15px;
+    border-radius: 7px;
+}
+
+#footerSubmitebtn {
+    background-color: rgb(221, 81, 56);
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bolder;
 }
