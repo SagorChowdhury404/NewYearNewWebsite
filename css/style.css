@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+.headerBaner {
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    height: 808px;
+    text-align: end;
+    padding-right: 200px;
+    padding-top: 200px;
+}
+
+#bannerTittle {
+    color: white;
+    font-size: 35px;
+}
+
+#headerBannerDescription {
+    margin-left: 800px;
+    color: white;
+    margin-top: 10px;
+    width: 30%;
+
+}
+
+#conectBTN {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    color: #005FAC;
+    background-color: whitesmoke;
+    border-radius: 7px;
+
+}
+
+/* -------- */
+#cardSection {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+#card {
+    text-align: left;
+    width: 40%;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+/* -----------------plan section ---------- */
+#plancard {}
+
+#planSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+    width: 70%;
+    height: 202.96px;
+    margin: 40px 200px;
+
+}
+
+/* //////////////////////// */
+#positiveCard {
+    width: 70%;
+    background-image: url(/images/gradient1.png);
+    margin-left: 200px;
+    text-align: start;
+    padding: 20px;
+}
+
+#footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 50px;
+
+    margin: 80px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutUS {
+    width: 30%;
+}
