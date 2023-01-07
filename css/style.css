@@ -38,10 +38,9 @@
 }
 
 /* headerBanner Section finished --------- */
-/* -------- */
+/* ----------------------------------------------------- */
 
 /* cardSection start ------- */
-
 #cardSection {
     display: flex;
     align-items: center;
@@ -71,12 +70,13 @@
     font-size: 16px;
 }
 
+/* card section  finish-------- */
 
 
-
-/* -----------------plan section ---------- */
+/* -----------------plan section  start ---------- */
 #plancard {
     margin-top: 30px;
+
 }
 
 #planSection {
@@ -84,19 +84,32 @@
     justify-content: space-between;
     margin: 5px 20px;
     width: 70%;
-    height: 202.96px;
+    /* height: 202px; */
     margin: 60px 200px;
 
 }
 
 /* //////////////////////// */
+
+/* positiveCard start  -------------  */
+
 #positiveCard {
-    width: 70%;
-    background-image: url(/images/gradient1.png);
+    width: 65%;
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
     margin-left: 200px;
     text-align: start;
-    padding: 20px;
+    padding-left: 90px;
+    padding-top: 50px;
+    height: 200px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, rgb(235, 69, 69) , rgb(63, 59, 59));
+
+    ;
+
 }
+
+/* footer start ----------------- */
 
 #footer {
     background-color: black;
